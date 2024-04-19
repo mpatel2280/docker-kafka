@@ -1,6 +1,4 @@
 # Kafka on Docker for development
-This is a companion repo for my braindump article [here](https://choy.in/braindumps/kafka-on-docker-development).
-It's a simple way to get a Kafka cluster up and running for development purposes. It's not intended for production use.
 
 ## Setting up
 There are 2 `docker-compose` files.
@@ -25,7 +23,7 @@ Connected to ClickHouse server version 22.11.2 revision 54460.
 Warnings:
  * Linux is not using a fast clock source. Performance can be degraded. Check /sys/devices/system/clocksource/clocksource0/current_clocksource
 
-0a3dea259af4 :) 
+4689032967e7 :) 
 ```
 Enter the SQL statements one by one from `clickhouse.sql`.
 
